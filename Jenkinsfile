@@ -6,7 +6,7 @@ pipeline {
 		
 			when{
 
-				changeset glob: "*WORLD.js", caseSensitive: true
+				changeset pattern: "*WORLD.js", caseSensitive: true
 			}
 		
             steps {                
